@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nama Komik</title>
+</head>
+
+<body>
+    <form action="Index.php" method="get">
+        <h3>Buku Komik</h3>
+        <label for="Nbuku">Nama Buku:</label>
+        <input type="text" name="Nama">
+        <br>
+        <label for="Npenulis">Penulis :</label>
+        <input type="text" name="Penulis">
+        <br>
+        <label for="Tahun">Tahun Keluar :</label>
+        <input type="date" name="Tahun">
+        <br>
+        <label for="Eps">Episode :</label>
+        <input type="number" name="Eps">
+        <br>
+        <input type="submit" name="submit" value="submit" />
+    </form>
+
+
+</body>
+
+</html>
